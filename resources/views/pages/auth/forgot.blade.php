@@ -8,8 +8,7 @@
         <div class="row">
             <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
                 <div class="login-brand">
-                    <img src="{{ asset('assets/img/icon.png') }}" class="icon mb-3" alt="icon">
-                    <p class="font-weight-bold text-primary" style="font-size:16px;">{{ env('APP_FULLNAME') }}</p>
+                    <h4 class="font-weight-bold text-primary">{{ env('APP_NAME') }}</h4>
                 </div>
                 @if (session('status'))
                 <div class="mb-4 alert alert-success">
@@ -46,7 +45,7 @@
                     Sudah Punya Akun? <a href="{{ route('login') }}">Login</a>
                 </div>
                 <div class="simple-footer">
-                    Copyright 2024 &copy; {{ env('APP_NAME') }}.
+                    Copyright {{ date('Y') }} &copy; {{ env('APP_NAME') }}.
                 </div>
             </div>
         </div>

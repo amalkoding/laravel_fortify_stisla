@@ -1,12 +1,12 @@
 <aside id="sidebar-wrapper">
     <div class="sidebar-brand">
         <a href="{{ url('/') }}">
-            <img src="{{ asset('assets/img/icon.png') }}" width="30" height="20" alt="icon">
+            <img src="{{ asset('assets/img/logo.jpg') }}" width="50" height="50" alt="logo">
         </a>
     </div>
     <div class="sidebar-brand sidebar-brand-sm">
         <a href="{{ url('/') }}">
-            <img src="{{ asset('assets/img/icon.png') }}" width="30" height="20" alt="icon">
+            <img src="{{ asset('assets/img/logo.jpg') }}" width="50" height="50" alt="logo">
         </a>
     </div>
     <ul class="sidebar-menu">

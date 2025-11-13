@@ -16,7 +16,7 @@
 <style type="text/css">
     :root {
         /* Colors */
-        --colors: #0076E6;
+        --colors: #FF5F15;
         --shadow: #eee;
     }
 

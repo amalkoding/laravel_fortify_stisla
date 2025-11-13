@@ -18,7 +18,7 @@
             @if(auth()->user()->avatar)
             <img alt="avatar" src="{{ asset('storage/'.auth()->user()->avatar) }}" class="rounded-circle mr-1">
             @else
-            <img alt="avatar" src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle mr-1">
+            <img alt="avatar" src="{{ asset('/assets/img/avatar/avatar-1.jpg') }}" class="rounded-circle mr-1">
             @endif
             <div class="d-sm-none d-lg-inline-block">Hi, {{ auth()->user()->name }}</div>
         </a>

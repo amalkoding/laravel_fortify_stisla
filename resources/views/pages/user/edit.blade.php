@@ -109,7 +109,7 @@
                     <img alt="avatar" src="{{ asset('storage') }}/{{ $item->avatar }}"
                         class="rounded-circle w-100 mb-3">
                     @else
-                    <img alt="avatar" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                    <img alt="avatar" src="{{ asset('/assets/img/avatar/avatar-1.jpg') }}"
                         class="rounded-circle w-100 mb-3">
                     @endif
                     <div class="clearfix"></div>

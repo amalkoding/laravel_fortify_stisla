@@ -66,7 +66,7 @@
             columnDefs: [{
                 "targets": 1,
                 "render": function(data, type, row, meta) {
-                    let img = `assets/img/avatar/avatar-1.png`;
+                    let img = `assets/img/avatar/avatar-1.jpg`;
                     if(data) {
                         img = `storage/${data}`;
                     }

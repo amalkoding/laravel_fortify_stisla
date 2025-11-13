@@ -104,7 +104,7 @@
                     <h4>Avatar</h4>
                 </div>
                 <div class="card-body">
-                    <img alt="avatar" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                    <img alt="avatar" src="{{ asset('/assets/img/avatar/avatar-1.jpg') }}"
                         class="rounded-circle w-100 mb-3">
                     <div class="clearfix"></div>
                     <div class="custom-file">

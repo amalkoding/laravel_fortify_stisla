@@ -29,8 +29,8 @@ for (var i = 0; i < chats.length; i++) {
         text: chats[i].text != undefined ? chats[i].text : "",
         picture:
             chats[i].position == "left"
-                ? "../assets/img/avatar/avatar-1.png"
-                : "../assets/img/avatar/avatar-2.png",
+                ? "../assets/img/avatar/avatar-1.jpg"
+                : "../assets/img/avatar/avatar-1.jpg",
         position: "chat-" + chats[i].position,
         type: type,
     });
@@ -42,7 +42,7 @@ $("#chat-form").submit(function () {
     if (me.find("input").val().trim().length > 0) {
         $.chatCtrl("#mychatbox", {
             text: me.find("input").val(),
-            picture: "../assets/img/avatar/avatar-2.png",
+            picture: "../assets/img/avatar/avatar-1.jpg",
         });
         me.find("input").val("");
     }
@@ -106,8 +106,8 @@ for (var i = 0; i < chats.length; i++) {
         text: chats[i].text != undefined ? chats[i].text : "",
         picture:
             chats[i].position == "left"
-                ? "../assets/img/avatar/avatar-1.png"
-                : "../assets/img/avatar/avatar-2.png",
+                ? "../assets/img/avatar/avatar-1.jpg"
+                : "../assets/img/avatar/avatar-1.jpg",
         position: "chat-" + chats[i].position,
         type: type,
     });
@@ -118,7 +118,7 @@ $("#chat-form2").submit(function () {
     if (me.find("input").val().trim().length > 0) {
         $.chatCtrl("#mychatbox2", {
             text: me.find("input").val(),
-            picture: "../assets/img/avatar/avatar-2.png",
+            picture: "../assets/img/avatar/avatar-1.jpg",
         });
         me.find("input").val("");
     }
