@@ -6,7 +6,12 @@
 
 <!-- CSS Libraries -->
 <link rel="stylesheet" href="{{ asset('/assets/vendor/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}">
-<link rel="stylesheet" href="{{ asset('/assets/vendor/datatables.net-select-bs4/css/select.bootstrap4.min.cs') }}s">
+<link rel="stylesheet" href="{{ asset('/assets/vendor/datatables.net-select-bs4/css/select.bootstrap4.min.css') }}">
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/assets/img/logo.jpg') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/assets/img/logo.jpg') }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/assets/img/logo.jpg') }}">
 
 <!-- Template CSS -->
 <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}">
